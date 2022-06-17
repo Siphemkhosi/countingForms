@@ -1,0 +1,61 @@
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    
+}
+.inputA, .inputB{
+    margin-bottom: 10px;
+    padding: 10px;
+    width:100%;
+    border-radius: 4px;
+    font-size: 16px;
+}
+.calc_buttons{
+display: flex;
+flex-direction: row;
+}
+
+.add{
+  background-color: rgb(34, 112, 27);
+}
+.minus{
+  background-color: rgb(133, 22, 41);
+}
+.multiply{
+  background-color: rgb(128, 74, 20);
+
+}
+.devide{
+  background-color: rgb(92, 38, 49);
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.calculate{
+  background-color:  rgb(143, 29, 29);
+
+}
+   
+.summation{
+    margin-top: 10px;
+    color: red;
+}
+button{
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
